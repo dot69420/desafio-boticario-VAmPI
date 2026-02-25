@@ -23,7 +23,7 @@ Finalidade: Testar a aplicação em tempo de execução no modo caixa-preta.
 ##### Processo de implementação 
 - Configuração do Job no Github Actions ('dast').
 - A aplicação sobe em um container Docker dentro do runner do github.
-- O passo "zaproxy/action-baseline" é executado contra a URL local da API no container (http://localhost:5000)
+- O passo "zaproxy/action-full-scan" é executado contra a URL local da API no container (http://localhost:5000)
 
 
 ### Consultando os resultados
